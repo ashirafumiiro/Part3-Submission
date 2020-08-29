@@ -99,8 +99,9 @@ app.post('/api/persons', (request, response)=>{
     response.json(person)
 })
 
-const PORT = process.env.PORT || 3002
+const PORT = process.env.PORT || 3001
 
-app.listen(PORT, ()=>{
-    console.log(`Server listening at port: ${PORT}`);
-})
+app.listen(PORT, '0.0.0.0'
+    // ()=>{
+    // console.log(`Server listening at port: ${PORT}`);}
+    )
