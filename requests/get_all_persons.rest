@@ -2,4 +2,4 @@ GET http://localhost:3001/api/persons HTTP/1.1
 
 
 ###
-GET https://evening-eyrie-12196.herokuapp.com/api/persons HTTP/1.1
+GET https://secure-earth-37038.herokuapp.com/api/persons HTTP/1.1
